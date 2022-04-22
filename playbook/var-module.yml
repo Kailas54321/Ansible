@@ -1,0 +1,7 @@
+---
+ - name: My first Playbook1
+   hosts: all
+   tasks:
+     - name: ping the hosts
+       debug: "please try to resolve issue"
+...
