@@ -3,5 +3,6 @@
    hosts: all
    tasks:
     - name: ping the hosts
-       debug: "please try to resolve issue"
+       debug: 
+       msg: "please try to resolve issue"
 ...
