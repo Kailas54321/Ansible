@@ -1,6 +1,6 @@
 - name: playbook for debug
   hosts: all
-  vars_files:
+  #vars_files:
    # - ./varFile
   vars_prompt:
     - name: URL
