@@ -1,14 +1,14 @@
 - name: playbook for debug
   hosts: all
-  #vars_files:
-  #  - ./varFile
-  #vars_prompt:
-  #  - name: URL
-  #    prompt: "Please enter your website"
-  #    private: false
+  vars_files:
+    - ./varFile
+  vars_prompt:
+    - name: URL
+      prompt: "Please enter your website"
+      private: false
   vars:
     URL: "www.google.com"
-  #gather_facts: True
+  gather_facts: True
   tasks:
     - name: print hello world
       debug:
