@@ -19,7 +19,7 @@
      # vars:
        # URL: "local.cloudblitz.in"
     - name: print OS
-      debug
+      debug:
         msg: "Please visit {{ ansible_distribution }}"
     - name: print IP
       debug:
