@@ -7,7 +7,7 @@
   #    prompt: "Please enter your website"
   #    private: false
   vars:
-    URL: "www.cloudblitz.in"
+    URL: "www.google.com"
   #gather_facts: True
   tasks:
     - name: print hello world
