@@ -1,6 +1,6 @@
 ---
 - name: install service httpd
-   hosts: all
+  hosts: all
       yum : 
       name : httpd
 
