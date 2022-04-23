@@ -1,8 +1,6 @@
 ---
-- name: install httpd
+- name: install service httpd
    hosts: all
-   tasks:
-    - name: ping the hosts
       yum : 
       name : httpd
 
@@ -10,5 +8,10 @@
    ansible.builtin.service: 
        name: httpd
        state: started
+
+- name: Enable service httpd
+   ansible.builtin.service:
+       name: httpd
+       state: Yes
 
 ...
