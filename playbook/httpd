@@ -1,0 +1,14 @@
+---
+- name: install httpd
+   hosts: all
+   tasks:
+    - name: ping the hosts
+      yum : 
+      name : httpd
+
+- name: start service httpd
+   ansible.builtin.service: 
+       name: httpd
+       state: started
+
+...
