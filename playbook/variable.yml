@@ -1,8 +1,8 @@
 - name: playbook for debug
   hosts: all
   vars_files:
-    - ./varFile
-  #vars_prompt:
+   # - ./varFile
+  vars_prompt:
     - name: URL
       prompt: "Please enter your website"
       private: false
