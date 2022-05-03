@@ -5,4 +5,3 @@
     - name: ping the hosts
       debug: 
         msg: "please try to resolve issue"
-...
