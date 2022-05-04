@@ -1,0 +1,18 @@
+- name: tags example
+  hosts: all
+  tasks: 
+    - name: print hello world
+      debug: 
+        msg: "hello world"
+      tags:
+        - hello
+
+    - name: print Hello Cloudblitz
+      debug: 
+        msg: "Hello Cloudblitz"
+      tags: 
+        - Cloudblitz
+
+    - name: print welcome
+      debug: 
+        msg: "Welcome to Cloudblitz"
