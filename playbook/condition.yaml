@@ -1,6 +1,6 @@
 - name: condition playbook
   hosts: all
   tasks: 
-    name: print OS
+    name: print if it is CentOS
     debug:
     msg: "This is centos"
