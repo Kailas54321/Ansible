@@ -3,11 +3,10 @@
   tasks:
     - name: loop
       debug:
-        msg: 'My fav colour {{ itom }}'
+        msg: 'My fav colour {{ item }}'
       loop:
         - red
         - white
         - pink
         - black
-        - skyblue
 
