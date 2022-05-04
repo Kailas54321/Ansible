@@ -1,6 +1,7 @@
 - name: condition playbook
   hosts: all
   tasks: 
-    name: print if it is CentOS
+    name: print OS if it is CentOS
     debug:
-    msg: "This is centos"
+    msg: "This is {{ ansible_distribution }}"
+    when: (ansible_distribution == 'Ubuntu' or ansible_distribution_major_version > '6')
