@@ -1,0 +1,6 @@
+- name: condition playbook
+  hosts: all
+  tasks: 
+    name: print OS
+    debug:
+    msg: 
