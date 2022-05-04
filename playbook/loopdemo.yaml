@@ -3,7 +3,7 @@
   tasks:
     - name: loop
       debug:
-        msg: my favourite colour {{ Itom }}
+        msg: 'My favourite colour {{ Itom }}'
       loop:
         - red
         - white
