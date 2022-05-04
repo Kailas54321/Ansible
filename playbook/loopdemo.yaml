@@ -1,0 +1,13 @@
+- name: loop
+  host: all
+  task:
+    - name: loop
+      debug:
+      msg: my favourite colour {{ Itom }}
+      loop:
+        - red
+        - white
+        - pink
+        - black
+        - skyblue
+
