@@ -1,9 +1,9 @@
-- name: loop
-  host: all
-  task:
+- name: Loop in Ansible
+  hosts: all
+  tasks:
     - name: loop
       debug:
-      msg: my favourite colour {{ Itom }}
+        msg: my favourite colour {{ Itom }}
       loop:
         - red
         - white
