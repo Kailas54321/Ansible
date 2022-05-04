@@ -3,4 +3,4 @@
   tasks: 
     name: print OS
     debug:
-    msg: 
+    msg: "This is centos"
