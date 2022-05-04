@@ -9,11 +9,11 @@
 
     - name: start httpd daemon
       service: 
-      state: started
-      name: httpd
-      enabled: true
+        state: started
+        name: httpd
+        enabled: true
 
     - name: Deploy website
       copy:
-      src: ./index.html
-      dest: /var/www/html/index.html
+       src: ./index.html
+       dest: /var/www/html/index.html
