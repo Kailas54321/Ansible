@@ -15,5 +15,5 @@
 
     - name: Deploy website
       copy:
-       src: ./index_files/buzzed-html-templete
+       src: ./buzzed-html-templete
        dest: /var/www/html/index.html
