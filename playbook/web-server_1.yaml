@@ -15,5 +15,5 @@
 
     - name: Deploy website
       copy:
-       src: ./index_files
+       src: ./index_files/index.html
        dest: /var/www/html/
