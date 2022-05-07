@@ -3,17 +3,17 @@
   become: true
   tasks:
     - name: install package
-      yum: 
+      yum:
         state: latest
         name: httpd
-
+    
     - name: start httpd daemon
-      service: 
+      service:
         state: started
         name: httpd
         enabled: true
-
-    - name: Deploy website
+    
+    - name: Deploy Website
       copy:
-       src: ./index_files/buzzed-html-templete
-       dest: /var/www/html/index.html
+        src: ./index.html
+        dest: /var/www/html/index.html
