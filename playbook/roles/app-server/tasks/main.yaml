@@ -18,7 +18,7 @@
      dest: /opt/
      remote_src: true
 
--  name: Depoly webapp
+-  name: Deploy webapp
    copy: 
      src: ./student.war
      dest: /opt/{{TOMCAT_DIR}}/webapp/student.war
