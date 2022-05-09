@@ -21,7 +21,7 @@
 <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
            maxTotal="500" maxIdle="30" maxWaitMillis="1000"
            username="admin" password="Redhat123" driverClassName="com.mysql.jdbc.Driver"
-           url="jdbc:mysql://database-1.cuidgfjsi76z.us-east-1.rds.amazonaws.com:3306/studentapp?useUnicode=yes&amp;characterEncoding=utf8"/>
+           url="jdbc:mysql://54.89.189.143:3306/studentapp?useUnicode=yes&amp;characterEncoding=utf8"/>
 
 
     <!-- Default set of monitored resources. If one of these changes, the    -->

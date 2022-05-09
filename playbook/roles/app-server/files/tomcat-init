@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # description: Apache Tomcat init script
-# processname: tomcat  
+# processname: tomcat   
 # chkconfig: 234 20 80  
 #
 
