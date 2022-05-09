@@ -3,7 +3,7 @@
      state: latest
      name: '{{ item }}'
      loop:
-       - java
+       - java\n
        - mysql
 
 -  name: Download tomcat 8
