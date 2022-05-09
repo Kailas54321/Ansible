@@ -1,7 +1,8 @@
 -  name: Install java
    yum:
      state: latest
-     loop: '{{ item }}'
+     name: '{{ item }}'
+     loop:
        - java
        - mysql
 
