@@ -1,10 +1,11 @@
--  name: Install java, mysql
+-  name: Install Java
    yum:
      state: latest
      name: '{{ item }}'
-     loop:
-       - java
-       - mysql
+   loop:
+    - java
+    - mysql
+
 
 -  name: Download tomcat 8
    get_url: 
