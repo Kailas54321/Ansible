@@ -18,10 +18,10 @@
      dest: /opt/
      remote_src: true
 
--  name: Deploy webapp
+-  name: Deploy webapps
    copy: 
      src: ./student.war
-     dest: /opt/{{TOMCAT_DIR}}/webapp/student.war
+     dest: /opt/{{TOMCAT_DIR}}/webapps/student.war
 
 -   name: Upload configuration file
     copy: 
