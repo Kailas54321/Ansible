@@ -24,7 +24,7 @@
      dest: /opt/{{TOMCAT_DIR}}/webapps/student.war
 
 -   name: Upload configuration file
-    copy: 
+    template: 
       src: ./contex.xml
       dest: /opt/{{TOMCAT_DIR}}/conf/contex.xml
 
